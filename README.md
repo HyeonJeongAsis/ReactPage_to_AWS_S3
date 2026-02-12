@@ -25,11 +25,11 @@ movie-booking-system/        (프로젝트 최상위 폴더)
 
 ### 📝 2. 만들어야 할 파일 내용
 
-####  `src/App.js` 
+#### ① `src/App.js` 
 
-####  `src/App.css`
+#### ② `src/App.css`
 
-#### ① `src/index.js` (React 진입점)
+#### ③ `src/index.js` (React 진입점)
 
 `src` 폴더 안에 파일을 만들고 아래 코드를 붙여넣으세요. 이 코드가 없으면 화면이 하얗게만 나옵니다.
 
@@ -47,7 +47,7 @@ root.render(
 
 ```
 
-#### ② `public/index.html` (메인 페이지)
+#### ④ `public/index.html` (메인 페이지)
 
 `public`이라는 폴더를 새로 만들고, 그 안에 파일을 만드세요. React가 들어갈 빈 껍데기(`<div id="root">`)입니다.
 
@@ -67,7 +67,7 @@ root.render(
 
 ```
 
-#### ③ `package.json` (프로젝트 설정)
+#### ⑤ `package.json` (프로젝트 설정)
 
 최상위 폴더(src 폴더 바깥)에 만드세요.
 
@@ -111,7 +111,7 @@ root.render(
 
 ```
 
-#### ④ `.gitignore` (Git 설정 - 선택사항)
+#### ⑥ `.gitignore` (Git 설정 - 선택사항)
 
 GitHub에 올리실 거라면 이 파일도 최상위에 만드는 것이 좋습니다. (용량 큰 파일 제외용)
 
